@@ -1,0 +1,12 @@
+<form onSubmit={getSearch} className="search-from">
+                    <input placeholder="Search Facebook" type="text" value={search} onChange={updateSearch} />
+                    <button className="search-button" type="submit">
+                    Search
+                    </button>  
+                 </form>
+
+
+<div className="header__input">
+                 <SearchIcon />
+                 <input placeholder="Search Facebook" type="text" />
+             </div>
